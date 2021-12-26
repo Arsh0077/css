@@ -1,0 +1,71 @@
+ .pa {
+            position: absolute;
+            text-align: center;
+            font-family: "Source Code Pro", monospace;
+            margin-top: 2%;
+
+            color: white;
+            display: -webkit-inline-box;
+
+            font-size: xx-large;
+        }
+.i{
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  text-shadow: 9px 5px #7c0d0d;
+}
+        .output {
+            position: absolute;
+            text-align: center;
+            font-family: "Source Code Pro", monospace;
+            color: white;
+            margin-top: 12%;
+            left: 0;
+
+
+        }
+
+        /* Cursor Styling */
+        .cursor::after {
+            content: "";
+            display: inline-block;
+            margin-left: 3px;
+            background-color: white;
+            animation-name: blink;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+        }
+
+
+        .the-type {
+            width: 80%;
+            margin: 0 auto;
+          }
+          @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+          .h11 {
+            margin-top: -36px;
+
+            font-family: 'Balsamiq Sans', cursive;
+                        font-size: 50px;
+            position: absolute ;
+            background: linear-gradient(
+              45deg,
+              rgb(0, 143, 104),
+              rgb(172, 51, 233),
+              rgb(250, 224, 66)
+            );
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            color: transparent;
+            text-transform: capitalize;
+            border-right-style: solid;
+            border-width: 10px;
+            border-image: linear-gradient(
+                45deg,
+                rgb(0, 143, 104),
+                rgb(172, 51, 233),
+                rgb(250, 224, 66)
+              )
+              1;
+          }
+          
